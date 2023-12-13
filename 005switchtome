@@ -37,6 +37,7 @@
 <meta name="text:link 3 url" content="URL">
 <meta name="text:link 3 title" content="link three title">
 <meta name="text:title top margin" content="120">
+<meta name="text:title left margin" content="-152">
 <meta name="text:custom title" content="switch to me">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
@@ -418,7 +419,7 @@ h1, h2 {
     margin-top: {text:title top margin}px;
     font-family: 'agbalumo', cursive;
     z-index: 900;
-    margin-left: -152px;
+    margin-left: {text:title left margin}px;
     transition-duration: 0.6s;  
     -moz-transition-duration: 0.6s;  
     -webkit-transition-duration: 0.6s;  
