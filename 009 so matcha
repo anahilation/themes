@@ -82,7 +82,7 @@ body {
     -moz-transition-duration: 0.6s;  
     -webkit-transition-duration: 0.6s;  
     -o-transition-duration: 0.6s;
-    border-radius: 100px;
+    border-radius: 10px;
 }
     
 #credit a {
@@ -165,7 +165,20 @@ body {
     
 }
 
-a {
+#topbar a {
+    background-color: #ececec; /*--link bg color--*/
+    padding: 3px;
+    border-radius: 3px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #000; /*--link text color--*/
+    transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s;
+}
+
+#muse a {
     background-color: #ececec; /*--link bg color--*/
     padding: 3px;
     border-radius: 3px;
