@@ -1,0 +1,350 @@
+<html>
+
+<!--010 MINUS COLOR blog theme by anahilation
+    please don't redistribute or claim as your own!
+    editing for personal use is okay.
+    enjoy <3
+    -->
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<link rel="shortcut icon" href="{Favicon}">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+<title>{title}</title>
+
+    <head>
+    
+    <style type="text/css">
+    
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins&display=swap');
+
+.tmblr-iframe { 
+    white-space:nowrap; 
+    -webkit-filter: invert(100%); 
+    -moz-filter: invert(100%); 
+    -o-filter: invert(100%); 
+    -ms-filter: invert(100%); 
+    filter: invert(100%);
+    opacity:.2;
+    transition: 0.6s ease-in-out; 
+    -webkit-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+    position:fixed!important;
+    right:-20px!important;
+    transform:scale(0.7,0.7); }
+
+.tmblr-iframe:hover {  
+    opacity:1; 
+}
+
+    
+body {
+    background-color: #212121; /**body background color**/
+    letter-spacing: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff; /**main text color**/
+}
+        
+a {
+    text-decoration: none;
+    color: #545454; /**main links color**/
+    transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s;
+}
+
+a:hover {
+    color: #ff8484; /**main links hover color**/
+    transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s;
+}
+
+        
+        
+::-webkit-scrollbar-thumb:vertical {
+    background-color: transparent; 
+    height:auto; 
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: transparent; 
+    height:2px;
+}
+
+::-webkit-scrollbar {
+    height:3px; 
+    width:3px; 
+    background-color: transparent;
+}
+
+
+#credit {
+    right:10px;
+    bottom:7px;
+    padding:5px;
+    font-size:10px;
+    position:fixed;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 120%;
+    margin-bottom: 5px;
+    transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s;
+    }
+    
+#credit a {
+    color: #ff8484;
+    }
+        
+#museimg {
+    width: 180px;
+    height: 240px;
+}
+
+#bio { 
+    width: 100px;
+    height: 120px;
+    overflow: auto;
+    font-size: 7.5pt;
+    text-align: justify;
+}
+
+#muse {
+    background-color: #0d0d0d; /**muse box color**/
+    width: 300px;
+    height: 240px;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px; 
+    border: 1px solid #505050; /**muse box border color**/
+}
+
+#name {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100px;
+    line-height: 80%;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+}
+
+#links {
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
+    text-transform: uppercase;
+    font-family: 'Inconsolata', monospace;
+}
+
+#links a {
+    background-color: #505050; /**muse links bg color**/
+    font-size: 8pt;
+    padding: 5px;
+    color: #fff; /**muse links text color**/
+}
+
+#links a:hover {
+    transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s;
+    background-color: transparent;
+    color: #ff8484; /**muse links hover text color**/
+}
+
+#info {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 200px;
+    
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    position: float;
+}
+
+#topbar {
+    width: 640px;
+    border-bottom: 1px solid #505050; /**topbar border color**/
+    margin-bottom: 50px;
+    padding: 50px;
+    text-transform: lowercase;
+    font-family: 'Inconsolata', monospace;
+}
+
+#nav {
+    font-size: 9pt;
+}
+
+#nav a {
+    margin-right:15px;
+    transition-duration: 0.6s;  
+    -moz-transition-duration: 0.6s;  
+    -webkit-transition-duration: 0.6s;  
+    -o-transition-duration: 0.6s;
+}
+
+#stats {
+    font-size: 7pt;
+    font-style: italic;
+    opacity: .8;
+    margin-bottom: 10px;
+    padding: 5px;
+    max-height: 25px;
+    overflow: auto;
+    width: 70px;
+    background-color: #505050; /**mini stats box bg**/
+    margin-left: 10px;
+}
+        
+    </style>
+        
+    </head>
+
+<body>
+
+
+<div id="container"> <!--START MAIN CONTAINER-->
+
+
+<!--START TOPBAR-->
+<div id="topbar">
+    muses<p> <!--PAGE TITLE-->
+<div id="nav"> <!--PAGE NAVIGATION-->
+        <a href="/">home</a> <a href="http://tumblr.com">back to dash</a>
+</div>
+</div>
+<!--END TOPBAR-->
+
+<!--START MUSES-->
+
+<!--FREE EMPTY MUSE BOX:
+
+<div id="muse">
+<div id="museimg"><img src="https://placehold.co/180x240.png"></div>
+<div id="info">
+<div id="name">muse name</div>
+<div id="stats">activity level, exclusitivity, etc.</div>
+<div id="bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<div id="links"><a href="/">one</a> <a href="/">two</a> </div>
+</div>
+</div>
+
+-->
+
+
+<div id="muse">
+<div id="museimg"><img src="https://placehold.co/180x240.png"></div>
+<div id="info">
+<div id="name">muse name</div>
+<div id="stats">activity level, exclusitivity, etc.</div>
+<div id="bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<div id="links"><a href="/">one</a> <a href="/">two</a> </div>
+</div>
+</div>
+
+
+<div id="muse">
+<div id="museimg"><img src="https://placehold.co/180x240.png"></div>
+<div id="info">
+<div id="name">muse name</div>
+<div id="stats">activity level, exclusitivity, etc.</div>
+<div id="bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<div id="links"><a href="/">one</a> <a href="/">two</a> </div>
+</div>
+</div>
+
+
+<div id="muse">
+<div id="museimg"><img src="https://placehold.co/180x240.png"></div>
+<div id="info">
+<div id="name">muse name</div>
+<div id="stats">activity level, exclusitivity, etc.</div>
+<div id="bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<div id="links"><a href="/">one</a> <a href="/">two</a> </div>
+</div>
+</div>
+
+
+<div id="muse">
+<div id="museimg"><img src="https://placehold.co/180x240.png"></div>
+<div id="info">
+<div id="name">muse name</div>
+<div id="stats">activity level, exclusitivity, etc.</div>
+<div id="bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<div id="links"><a href="/">one</a> <a href="/">two</a> </div>
+</div>
+</div>
+
+
+<div id="muse">
+<div id="museimg"><img src="https://placehold.co/180x240.png"></div>
+<div id="info">
+<div id="name">muse name</div>
+<div id="stats">activity level, exclusitivity, etc.</div>
+<div id="bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<div id="links"><a href="/">one</a> <a href="/">two</a> </div>
+</div>
+</div>
+
+
+<div id="muse">
+<div id="museimg"><img src="https://placehold.co/180x240.png"></div>
+<div id="info">
+<div id="name">muse name</div>
+<div id="stats">activity level, exclusitivity, etc.</div>
+<div id="bio"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</div>
+<div id="links"><a href="/">one</a> <a href="/">two</a> </div>
+</div>
+</div>
+
+
+<!--END MUSES-->
+
+<!--END MAIN CONTAINER-->
+</div>
+
+
+
+<div id="credit">
+<a href="https://anahilation.tumblr.com/" title="theme by ana"><span class="material-symbols-outlined">gesture</span></a>
+</div>
+
+</body>
+    
+</html>
